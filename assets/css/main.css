@@ -1,0 +1,95 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #333;
+    background-color: #fff8ec;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+}
+
+#header-img img {
+    border-radius: 10px;
+    max-width: 200px;
+    height: 200px;
+    border: 4px solid #ddd;
+}
+
+/* Header name and subtitle */
+#headerName h1 {
+    font-size: 2em;
+    margin: 0 0 0.2em;
+}
+
+#headerName h5 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1em;
+    color: #555;
+}
+
+#SocialContact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1rem; /*spacing */
+    margin-left: 20px;
+    align-items: center;
+    font-size: 0.95em;
+    /* gap: 0.3rem;
+    margin-left: 20px; Adjust this value to match alignment with #headerName */
+}
+
+#SocialContact a {
+    text-decoration: none;
+    color: #444;
+    transition: color 0.2s ease-in-out;
+}
+#SocialContact i {
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#SocialContact a:hover {
+    color: #2d6cdf;
+}
+
+.image.featured img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
+/* Footer Icons */
+.contact .icons li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.contact .icons a {
+    font-size: 1.5em;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.contact .icons a:hover {
+    color: #0077cc;
+}
+section {
+  margin-bottom: 2rem;
+}
+.career-list {
+    list-style-type: disc;
+    padding-left: 1rem;
+    line-height: 1.6;
+  }
